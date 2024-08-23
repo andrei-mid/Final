@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFEAC5;
+    padding: 5px;
+    margin: 15px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; 
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.95em;
+    margin: 0; 
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+li {
+    margin-top: 20px;
+}
+
+img {
+    border: 5px solid #55679C;
+    border-radius: 35px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.label {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #1E2A5E;
+    border-radius: 15px;
+    padding: 8px;
+    transition: background-color 0.3s; 
+}
+
+a:hover {
+    background-color: #354E9A; 
+}
+
+@media all and (min-width: 772px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto; 
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212; 
+        color: #e0e0e0; 
+    }
+    
+    figure {
+        background-color: #333333; 
+        color: #f0f0f0; 
+        border-color: #000000; 
+    }
+    
+    img {
+        border: 5px solid #000000; 
+    }
+    
+    a {
+        background-color: #2e3a5f; 
+    }
+}
+
