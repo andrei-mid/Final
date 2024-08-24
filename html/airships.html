@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helicopters</title>
+    <link rel = "stylesheet" href = "../css/airship.css">
+    <link href="../dist/css/lightbox.css" rel="stylesheet">
+    <script src = "../javascript/site.js"></script>
+    <h2 id="back_to_top"></h2>
+    <img onclick = "message('CLICK')" src="../poze/Goodyear.jpg"   id = "poza1" alt = "Plane in sunset" class = "top">
+    <button type="button" onclick = "data()">Display Date</button>
+    <div id = "data1">Date will show here</div>
+</head>
+<body onload="pickimage2()">
+    <img id = "header_img" src = "" width = "200px" alt = "Waiting for an image">
+    <div id = "pozarand">This picture is generated at random at page reload</div>
+    <main>
+        <h1> Air-Ships </h1>
+        <hr>
+        <nav>
+            <a id = "nav1" href="../html/helicopters.html">Helicopters</a>
+            <a id = "nav2" href="../html/airships.html">Air-Ships</a>
+            <a id = "nav1" href="../html/contact.html">Contact</a>
+            <a id = "nav1" href="../index.html">Airplanes</a>
+        </nav>
+        <p><strong>Airships are from the past but they can make a comeback</strong></p>
+        <ol class = "prima">
+            <li><a href="../poze/Hindenburg.png" data-lightbox="poze" data-title="My Hindenburg"><img src = "../poze/Hindenburg.jpg" id = "plist"   alt = "Hindenburg in air" class = "listimg"></a> <span class = "listext">Hindenburg</span></li>
+            <li><a href="../poze/Airlander.jpg" data-lightbox="poze" data-title="My Airlander"><img src = "../poze/Airlander.jpg" id = "plist"   alt = "Airlander in air" class = "listimg"></a> <span class = "listext">Airlander</span></li>
+            <li><a href="../poze/Zeppellin.jpg" data-lightbox="poze" data-title="My Zeppellin"><img src = "../poze/Zeppellin.jpg" id = "plist"   alt = "Zeppellin in air" class = "listimg"></a> <span class = "listext">Zeppellin</span></li>
+        </ol>
+        <a href="https://en.wikipedia.org/wiki/Airbus" class = "link1">More about Airbus</a>
+        <p><strong> Here are some amazing airships based on their innovations:</strong></p>
+        <ol id = "doi">
+            <li>LZ 1 (1900)</li>
+            <li>LZ 127 Graf Zeppelin (1928)</li>
+            <li>USS Shenandoah (ZR-1) (1923)</li> 
+            <li> R101 (1929)</li>
+            <li>Hindenburg (LZ 129) (1936)</li>
+            <li>USS Akron (ZRS-4) (1931)</li>
+            <li>Goodyear Blimp (1925-present)</li>
+        </ol>
+        <a href="https://en.wikipedia.org/wiki/Boeing" class = "link1">More about Boeing</a><br><br>
+        <a href="#back_to_top" class = "link2">Back to top </a>
+    </main>
+    <footer> &#169; Copywright Andrei  </footer>
+    <script src = "../dist/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
+
